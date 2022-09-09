@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "nbdev-demo-k",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "nbdev-demo-k",
+    "section": "Install",
+    "text": "Install\npip install nbdev_demo_k"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "nbdev-demo-k",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2"
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "get_config().get('jupyter_hooks')\n\n> /Users/hamel/github/nbdev/nbdev/config.py(200)get_config()\n    199     cfg = Config(cfg_file.parent, cfg_file.name, extra_files=extra_files, types=_types)\n--> 200     return _apply_defaults(cfg)\n    201 \n\n\n\n\nsource\n\nfoo\n\n foo ()\n\n\n!cat settings.ini\n\n[DEFAULT]\n# All sections below are required unless otherwise specified.\n# See https://github.com/fastai/nbdev/blob/master/settings.ini for examples.\n\n### Python library ###\nrepo = nbdev-demo-k\nlib_name = %(repo)s\nversion = 0.0.1\nmin_python = 3.7\nlicense = apache2\n\n### nbdev ###\ndoc_path = _docs\nlib_path = nbdev_demo_k\nnbs_path = .\nrecursive = False\ntst_flags = notest\n\n### Docs ###\nbranch = master\ncustom_sidebar = False\ndoc_host = https://%(user)s.github.io\ndoc_baseurl = /%(repo)s\ngit_url = https://github.com/%(user)s/%(repo)s\ntitle = %(lib_name)s\ncustom_quarto_yml = False\n\n### PyPI ###\naudience = Developers\nauthor = Hamel Husain\nauthor_email = hamel.husain@gmail.com\ncopyright = 2022 onwards, %(author)s\ndescription = a new repo to test stuff in\nkeywords = nbdev jupyter notebook python\nlanguage = English\nstatus = 3\nuser = hamelsmu\n\n### Optional ###\n# requirements = fastcore pandas\n# dev_requirements = \n# console_scripts ="
+  }
+]
